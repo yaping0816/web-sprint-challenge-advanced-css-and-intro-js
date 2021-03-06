@@ -134,3 +134,10 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* add media queries for max-width at 500px */
+@media(max-width:500px){
+    .title-container div{
+        width: 100%;
+    }
+}
