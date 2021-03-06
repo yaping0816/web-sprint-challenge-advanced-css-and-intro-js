@@ -137,7 +137,28 @@ button:hover{
 
 /* add media queries for max-width at 500px */
 @media(max-width:500px){
+    nav{
+        width: 50%;
+    }
     .title-container div{
         width: 100%;
+        height: 30vh;
     }
+    .artists-container{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .artist{
+        width:80%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .artist img{
+        width: 60%;
+        height: 10vh;
+    }
+
+
+
 }
