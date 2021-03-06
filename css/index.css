@@ -151,8 +151,6 @@ button:hover{
     }
     .artist{
         width:80%;
-        /* display: flex;
-        flex-direction: column; */
     }
     .artist img{
         width: 60%;
