@@ -294,8 +294,17 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array){
+    const newArray=[...array];
+    newArray.push({ 
+      'id': 20,
+      'name': 'Yaping Liu', 
+      'years': '1984 - 2021',
+      'genre': 'Web Design', 
+      'nationality': 'China',
+      'bio': 'LoremBuilder is an ultra-lightweight, advanced placeholder text editor specifically created to help developers and designers in their daily tasks.'
+    });
+    return newArray;
   }
 
   
